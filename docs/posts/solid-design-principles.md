@@ -5,10 +5,10 @@ pin: true
 links:
   - Homepage: index.md
 categories:
-  - Business
+  - Software
 tags:
-  - leadership
-  - management
+  - solid
+  - architecture
 authors:
   - jacob
 slug: what-we-know-about-leadership
@@ -16,11 +16,13 @@ slug: what-we-know-about-leadership
 
 # SOLID Design Principles
 
-I recently embarked on a painful software refactor. Just a few months ago, when we began building our application, our codebase was clean and efficient. Every function was meticulously documented, and data flowed elegantly through our system.
+I recently embarked on a painful software refactor. Just a few months ago, when we began building our application at ChaseLabs, our codebase was clean and efficient. Every function was documented, and data flowed elegantly through our system.
 
-But working in a nascent start-up has its own demands. The need to rapidly demonstrate a proof-of-concept and outperform competitors led to some quick and dirty solutions. A hack here, an anti-pattern there, and soon our ounce spotless codebase started to degrade. It became rigid and fragile. Minor changes triggered a cascade of subsequent changes, causing our application to break often. Design preserving methods became harder to write than hacks, and with that our codebase was well and truly rotting.
+But working in a nascent start-up has its own demands. The need to rapidly demonstrate a proof-of-concept and outperform competitors led to some quick and dirty solutions. A hack here, an anti-pattern there, and soon codebase started to degrade. It became rigid and fragile. Minor changes triggered a cascade of subsequent changes, causing our application to break often. Design preserving methods became harder to write than hacks, and with that our codebase was well and truly rotting.
 
-I decided I was going to do this refactor properly and re-read Mariano Anaya’s Clean Code in Python for some inspiration. It was there in Chapter 4 that I discovered the SOLID Principles.
+I decided I was going to do this refactor properly and re-read [Mariano Anaya’s Clean Code in Python](https://github.com/PacktPublishing/Clean-Code-in-Python) for some inspiration. It was there in Chapter 4 that I discovered the SOLID Principles.
+
+<!-- more -->
 
 SOLID is a mnemonic acronym for a set of five principles intended to make object-oriented codebases more maintainable, extendable and ultimately much easier to work with. It stands for:
 
