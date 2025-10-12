@@ -3,55 +3,39 @@ site_description: A blog written by Jacob Strauss
 site_url: http://www.example.com
 
 theme:
+ # Custom logo icon (appears in top-left corner)
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   name: material
   
   # ---------------------------------------- color scheme configuration
   palette:
+    scheme: slate
+    primary: black
+    accent: indigo
 
-    # Light mode (default)
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    
-    # Dark mode (optional)
-    # - scheme: slate
-    #   primary: indigo
-    #   accent: indigo
-    #   toggle:
-    #     icon: material/brightness-4  # Moon icon to represent dark mode
-    #     name: Switch to light mode
-  
-  # Typography settings
-  # font:
-  #   text: Roboto
-  #   code: Roboto Mono
+  # ---------------------------------------- font configuration
+  font:
+    text: Exo
+    code: Roboto Mono
   
   # Feature flags - these enable specific UI behaviors
   features:
-    - navigation.indexes      # Allows section index pages (you already had this)
+    - navigation.indexes      # Allows section index pages
     - navigation.top          # Adds "back to top" button when scrolling
     - navigation.tabs         # Shows top-level sections as tabs in header
-    - navigation.sections     # Groups navigation items into collapsible sections
     - navigation.footer       # Adds prev/next page links at bottom
     - search.suggest          # Shows search suggestions as you type
     - search.highlight        # Highlights search terms in results
     - content.code.copy       # Adds copy button to code blocks
-    - content.code.annotate   # Allows adding annotations to code (comments with numbers)
+    - content.code.annotate   # Allows adding annotations to code
   
-  # Custom logo icon (appears in top-left corner)
-  icon:
-    logo: material/book-open-page-variant  # You can change this to any Material Design icon
-
 plugins:
   - search  # Enables the search functionality
   
   # Blog plugin configuration
   - blog:
       authors_file: .authors.yml           # Where author profiles are stored
-      authors_profiles: true               # Show author profile pages
       blog_dir: .                          # Root directory for blog posts
       blog_toc: true                       # Show table of contents on blog posts
       archive_date_format: MMMM yyyy       # How dates appear in archives (e.g., "January 2024")
@@ -60,8 +44,6 @@ plugins:
         - Software
       post_excerpt: required                # Requires an excerpt for each post
       post_excerpt_separator: <!-- more --> # Where to cut off the preview
-  
-  - meta  # Allows setting metadata in separate .meta.yml files
   
   # Tags plugin - helps organize posts by topics
   - tags:
@@ -77,10 +59,14 @@ plugins:
 # Extra settings
 extra:
   social:  # Social media links shown in footer
-    - icon: fontawesome/brands/mastodon
-      name: squidfunk on Mastodon
-      link: https://fosstodon.org/@squidfunk
-  
+    - icon: fontawesome/brands/github
+      name: Jacob Strauss on GitHub
+      link: https://github.com/jda5
+
+    - icon: fontawesome/brands/linkedin
+      name: Jacob Strauss on LinkedIn
+      link: https://www.linkedin.com/in/jacob-strauss-699546196
+
   generator: false  # Removes "Made with Material for MkDocs" from footer
 
 hooks:
@@ -112,3 +98,5 @@ markdown_extensions:
 # Site navigation structure
 nav:
   - Home: index.md
+  - About: author/jacob.md
+  - Tags: tags.md

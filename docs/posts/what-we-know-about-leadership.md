@@ -22,10 +22,10 @@ These books start with an agenda, then cherry-pick evidence in support of it. Wh
 
 In the spirit of an evidence first approach, Hogan & Kaiser (2005) published a paper titled [What We Know About Leadership](https://www.researchgate.net/publication/232604395_What_We_Know_About_Leadership). In their paper they reviewed the scientific literature on leadership to make an empirically grounded claims about the consequences of leadership and offer a straightforward summary of the characteristics of good and bad leaders.
 
-I really like this paper, and despite its age, I believe that the claims about leadership hold water today. So, I am writing this post to summarise the main points of their article, providing readers – and perhaps more so myself – a condensed version that can be read in just six minutes. 
+I really like this paper, and despite its age, I believe that the claims about leadership hold water today. So, I am writing this post to summarise the main points of their article, providing readers – and perhaps more so myself – a condensed version that can be read in just five minutes. 
+<!-- more -->
 
 Everything good about this blog post comes from Hogan & Kaiser’s paper, and everything bad is entirely my own.
-<!-- more -->
 
 # Goal of Leadership
 
