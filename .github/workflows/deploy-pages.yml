@@ -24,9 +24,8 @@ jobs:
       - run: pip install \
             mkdocs-material
             mkdocs-blog-plugin
-      - run: pwd
-      - run: ls
-      - run: mkdocs gh-deploy --config-file ./mkdocs.yml --force
+            mkdocs-rss-plugin
+      - run: mkdocs gh-deploy --config-file mkdocs.yml --force
  
   deploy_mkdocs:
     needs: build_mkdocs
