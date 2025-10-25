@@ -1,6 +1,6 @@
 site_name: Better Every Loop
 site_description: A blog written by Jacob Strauss
-site_url: http://www.example.com
+site_url: https://github.com/jda5/blog/pull/new/gh-pages
 
 theme:
  # Custom logo icon (appears in top-left corner)
