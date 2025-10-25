@@ -10,9 +10,9 @@ theme:
   
   # ---------------------------------------- color scheme configuration
   palette:
-    scheme: slate
-    primary: black
-    accent: indigo
+    scheme: default
+    primary: amber
+    accent: yellow
 
   # ---------------------------------------- font configuration
   font:
@@ -38,7 +38,7 @@ plugins:
       authors_file: .authors.yml           # Where author profiles are stored
       blog_dir: .                          # Root directory for blog posts
       blog_toc: true                       # Show table of contents on blog posts
-      archive_date_format: MMMM yyyy       # How dates appear in archives (e.g., "January 2024")
+      archive_date_format: yyyy            # How dates appear in archives (e.g., "2024")
       categories_allowed:                  # Whitelist of categories you'll use
         - Business
         - Software
